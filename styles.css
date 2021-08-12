@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27,27,27);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.one {
+    color: rgb(195,151,79);
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.two {
+    color: rgb(195,151,79);
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.three {
+    color: rgb(195,151,79);
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.four {
+    color: rgb(195,151,79);
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.five {
+    color: rgb(195,151,79);
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.six {
+    color: rgb(195,151,79);
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.one:hover {
+    background-color: gold;
+}
+
+.two:hover {
+    background-color: gold;
+}
+
+.three:hover {
+    background-color: gold;
+}
+
+.four:hover {
+    background-color: gold;
+}
+
+.five:hover {
+    background-color: gold;
+}
+
+.six:hover {
+    background-color: gold;
+}
+
+input {
+    padding: 10px;
+    border-radius: 0px;
+    border: .5px solid gray;
+    background-color: rgb(27,27,27);
+    width: 200px;
+    height: 20px;
+    font-size: 25px;
+    color: rgb(195,151,79);
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    position: relative;
+    right: 5px;
+    border-radius: 0px;
+    border: .5px solid gray;
+    cursor: pointer;
+    color: rgb(195,151,79);
+    background-color: rgb(27,27,27);
+}
+
+button:hover {
+    background-color: rgb(195,151,79);
+    color: rgb(27,27,27);;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+label {
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+
+.title {
+    color: rgb(195,151,79);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.answer {
+    color: rgb(195,151,79);
+}
+
+
+#board {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-areas: 
+    "100" "100" "100" "100" "100" 
+    "200" "200" "200" "200" "200"
+    "300" "300" "300" "300" "300"
+    "400" "400" "400" "400" "400"
+    "500" "500" "500" "500" "500"
+    "600" "600" "600" "600" "600"
+    ;
+}
+
+.question {
+    text-align: center;
+    color: rgb(195,151,79);
+}
+
+.correctAnswer {
+    text-align: center;
+    color: rgb(195,151,79);
+}
+
+.done {
+    background-color: rgb(27,27,27);
+    color: gray;
+    text-align: center;
+    border: .5px solid black;
+}
+
+.done:hover {
+    cursor: pointer;
+}

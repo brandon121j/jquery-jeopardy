@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Jeopardy</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Jeopardy!</h1>
+            <h2>Your Score: <span></span></h2>
+        </div>
+        <div id="board">
+            <div class="one" id="a">$100</div>
+            <div class="one" id="b">$100</div>
+            <div class="one" id="c">$100</div>
+            <div class="one" id="d">$100</div>
+            <div class="one" id="e">$100</div>
+            <div class="two" id="f">$200</div>
+            <div class="two" id="g">$200</div>
+            <div class="two" id="h">$200</div>
+            <div class="two" id="i">$200</div>
+            <div class="two" id="j">$200</div>
+            <div class="three" id="k">$300</div>
+            <div class="three" id="l">$300</div>
+            <div class="three" id="m">$300</div>
+            <div class="three" id="n">$300</div>
+            <div class="three" id="o">$300</div>
+            <div class="four" id="p">$400</div>
+            <div class="four" id="q">$400</div>
+            <div class="four" id="r">$400</div>
+            <div class="four" id="s">$400</div>
+            <div class="four" id="t">$400</div>
+            <div class="five" id="u">$500</div>
+            <div class="five" id="v">$500</div>
+            <div class="five" id="w">$500</div>
+            <div class="five" id="x">$500</div>
+            <div class="five" id="y">$500</div>
+            <div class="six" id="z">$600</div>
+            <div class="six" id="a1">$600</div>
+            <div class="six" id="b1">$600</div>
+            <div class="six" id="c1">$600</div>
+            <div class="six" id="d1">$600</div>
+        </div>
+        <div class="question">
+        </div>
+        <div class="correctAnswer">
+        </div>
+        <div class="answer">
+            <label>YOUR ANSWER </label>
+            <input id="userText" type="text">
+            <button id="submitter" type="submit">SUBMIT</button>
+        </div>
+    </div>
+    <script src="jeopardy.json"></script>
+    <script src="main.js"></script>
+</body>
+</html>
